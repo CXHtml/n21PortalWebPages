@@ -1,0 +1,535 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>珠海网 | 珠海网络电视台</title>
+	<meta name="keywords" content="珠海,珠海网,珠海广播电视台,珠海电视台,珠海电台,ZHTV,珠海新闻,珠海网络电视,n21,北纬21度,珠海视频,电视直播,视频点播,新闻报料,新闻,澳门,生活,美食,科技,校园,飞翔,航展,互动,播客,珠海社区,珠海人才,珠海导航,珠海百科,珠海百问,海螺电台,珠海商城" />
+	<meta name="description" content="珠海人，上珠海网！珠海网是珠海网络电视台旗下的新媒体，包含网络视频、互动社区等平台，是提供珠海新闻资讯、视频直播点播、生活服务,电子商务，优惠团购，热门活动的综合性门户网站，栏目包含新闻报料,新闻,澳门,生活,珠海美食,科技,校园,飞翔,航展,互动,播客,珠海视频,珠海社区,珠海人才,珠海导航,珠海百科,珠海百问,海螺电台,珠海商城等。" />
+	<base target="_blank" />
+	<link rel="stylesheet" type="text/css" href="../css/n21_new.css">
+	<link rel="stylesheet" type="text/css" href="../css/bjqs.css">
+	<script type="text/javascript" src="../js/jquery-1.10.1.js"></script>
+	<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/bjqs-1.3.min.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#sb_slider').bjqs({
+				height       : 215,
+				width        : 300,
+				responsive   : false,
+				showcontrols : false,
+				centermarkers: false
+			});
+			jQuery("#n21_sidebar .sb_rankh a").mouseover(function(){
+				var $this = jQuery(this);
+				var index = $this.index();
+				var $tab = jQuery("#n21_sidebar .rli"+index);
+				if ( !$this.hasClass("h_act") ) {
+					$this.addClass("h_act").siblings("a").removeClass("h_act");
+					$tab.css({"display":"block"}).siblings().css({"display":"none"});
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+<div id="n21_header">
+	<div id="n21_header_top">
+		<div id="n21_header_top_box" class="n21_wrapper clearfix">
+			<a class="n21_logo" href="#" title="珠海网"></a>
+			<div id="n21_search">
+				<div class="n21_search_box clearfix">
+					<input class="search_input" style="text" value="" />
+					<div class="search_btn"></div>
+				</div>
+				<ul class="search_keywords clearfix">
+					<li><a href="#" title="热带风暴" class="title_link">热带风暴</a></li>
+					<li><a href="#" title="定位系统" class="title_link">定位系统</a></li>
+					<li><a href="#" title="珠三角" class="title_link">珠三角</a></li>
+					<li><a href="#" title="海绵宝宝" class="title_link">海绵宝宝</a></li>
+					<li><a href="#" title="定位系统" class="title_link">定位系统</a></li>
+					<li><a href="#" title="珠三角" class="title_link">珠三角</a></li>
+					<li><a href="#" title="海绵宝宝" class="title_link">海绵宝宝</a></li>
+				</ul>
+			</div>
+			<div id="n21_header_link">
+				<ul class="n21_header_link_box clearfix">
+					<li class="user_log"><a href="#" title="登录"><span>登录</span></a><a href="#" title="注册"><span>注册</span></a></li>
+					<li><a href="#" title="珠海视听"><img src="../img/shiting_logo.png" title="视听" alt="视听" width=36 height=25 /><span>视听</span></a></li>
+					<li><a href="#" title="珠海社区"><img src="../img/shequ_logo.png" title="社区" alt="社区" width=36 height=25 /><span>社区</span></a></li>
+					<li><a href="#" title="珠海同城"><img src="../img/tongcheng_logo.png" title="同城" alt="同城" width=36 height=25 /><span>同城</span></a></li>
+					<li><a href="#" title="珠海导航"><img src="../img/daohang_logo.png" title="导航" alt="导航" width=36 height=25 /><span>导航</span></a></li>
+				</ul>
+			</div>
+		</div><!-- n21_header_top_box end -->
+	</div><!-- n21_header_top end -->
+	<div id="n21_nav">
+		<div id="n21_nav_box" class="n21_wrapper">
+			<ul class="n21_nav_lists clearfix">
+				<li><a href="#" title="首页">首页</a></li>
+				<li class="nav_white"><a href="#" title="新闻">新闻</a></li>
+				<li><a href="#" title="澳门">澳门</a></li>
+				<li><a href="#" title="生活">生活</a></li>
+				<li><a href="#" title="美食">美食</a></li>
+				<li><a href="#" title="科技">科技</a></li>
+				<li><a href="#" title="校园">校园</a></li>
+				<li><a href="#" title="文化">文化</a></li>
+				<li><a href="#" title="旅游">旅游</a></li>
+				<li><a href="#" title="人才">人才</a></li>
+				<li><a href="#" title="飞翔">飞翔</a></li>
+				<li class="n21_market"><a href="#" title="珠海商城">珠海商城</a></li>
+			</ul>
+		</div>
+	</div><!-- n21_nav end -->
+	<div class="nav_sub_li n21_wrapper">
+		<ul class="clearfix">
+			<li><a href="#" title="电影首页" class="font_grey"><strong>电影首页</strong></a></li>
+			<li><a href="#" title="电影1" class="font_grey title_link">电影1</a></li>
+			<li><a href="#" title="电影2" class="font_grey title_link">电影2</a></li>
+			<li><a href="#" title="电影3" class="font_grey title_link">电影3</a></li>
+			<li><a href="#" title="电影4" class="font_grey title_link">电影4</a></li>
+			<li><a href="#" title="电影5" class="font_grey title_link">电影5</a></li>
+			<li><a href="#" title="电影6" class="font_grey title_link">电影6</a></li>
+			<li><a href="#" title="电影7" class="font_grey title_link">电影7</a></li>
+			<li><a href="#" title="电影8" class="font_grey title_link">电影8</a></li>
+			<li><a href="#" title="电影9" class="font_grey title_link">电影9</a></li>
+			<li><a href="#" title="电影10" class="font_grey title_link">电影10</a></li>
+			<li><a href="#" title="电影11" class="font_grey title_link">电影11</a></li>
+		</ul>
+	</div><!-- nav_sub_li end -->
+	<div class="head_ad n21_wrapper">
+		<a href="#"><img src="../img/hd_ad.jpg" width=1000 /></a>
+	</div>
+	<div class="articles_title n21_wrapper">
+		<span class="art_news">珠海新闻</span>
+		<span class="font_grey"><a href="#" class="title_link">新闻</a> > <a href="#" class="title_link">珠海新闻</a> > <a href="#" class="title_link">正文</a></span>
+		<div class="art_rline"></div>
+		<div class="art_date"><span id="art_date">2013年8月8日</span>  <span id="art_week">星期四</span></div>
+	</div>
+</div><!-- n21_header end -->
+<div id="n21_main_box" class="n21_wrapper clearfix">
+	<div id="n21_box_left" class="ns_left">
+		<div class="articles_box">
+			<h1>吉普车冲撞天安门金水桥被定性为恐怖袭击</h1>
+			<div class="art_info">
+				<span class="font_grey">时间：</span><span id="art_time">2013-08-28 22:58</span><span class="font_grey">来源：</span><a href="#" class="title_link font_blue">珠海网</a><span class="font_grey">作者：</span><span id="art_author">张三</span>
+			</div>
+			<div class="art_multi">
+				<img src="../img/art_imgs.png" width=550 height=285 />
+			</div>
+			<div class="art_content">
+				<p style="TEXT-INDENT: 2em">新华网北京10月30日电记者从北京市公安局新闻发言人处获悉，警方初步认定,“10·28”事件是一起经过严密策划，有组织、有预谋的暴力恐怖袭击案件。目前，已初步查明案件涉案人员相关情况，5名在逃涉案人员现已全部抓获。</p>
+				<p style="TEXT-INDENT: 2em">“10·28”驾车冲撞致人伤亡案件发生后，北京警方迅速行动，会同多地公安机关连夜工作。经现场勘查，北京警方查明肇事车辆为一悬挂新疆牌照吉普车，警方在车内发现汽油及盛装汽油的装置、两把砍刀、铁棍，车上还发现印有极端宗教内容的旗帜。经深入侦查后查明：28日12时许，乌斯曼·艾山、其母库完汗·热依木及其妻古力克孜·艾尼3人驾乘吉普车闯入长安街便道，沿途快速行驶故意冲撞游人群众，造成2人死亡，40人受伤。嫌疑人驾车撞向金水桥护栏，点燃车内汽油致车辆起火燃烧，车内的乌斯曼·艾山等3人当场死亡。</p>
+				<p style="TEXT-INDENT: 2em">在新疆等地公安机关大力配合下，北京警方先后将玉江山·吾许尔、古丽娜尔·托乎提尼亚孜、玉苏普·吾买尔尼亚孜、布坚乃提·阿卜杜喀迪尔、玉苏普·艾合麦提等5名同伙抓获。</p>
+			</div>
+		</div><!-- articles_box end -->
+		<div class="art_recomm clearfix">
+			<div class="art_r">0</div>
+			<div class="art_r art_love">关注</div>
+		</div>
+		<div class="art_n21app">
+			<span>扫描二维码，关注珠海网微信公众帐号，获取最新资讯和优惠活动信息~</span>
+			<img src="../img/n21app.jpg" width=139 height=138 />
+		</div>
+		<div class="art_share_box classfix">
+			<div class="n21_client">
+				<span class="nc_logo1"></span>
+				<span>随时随地看新闻，珠海网手机客户端</span>
+				<span class="nc_logo2"></span>
+			</div>
+			<div class="art_shares">
+				<span class="font_blue">一键分享至：</span>
+				<a href="#" class="share_sweibo"></a>
+				<a href="#" class="share_tweibo"></a>
+				<a href="#" class="share_twitter"></a>
+				<a href="#" class="share_renren"></a>
+				<a href="#" class="share_douban"></a>
+			</div>
+		</div>
+		<div class="art_tag_box">
+			<span class="font_blue">标签：</span>
+			<a href="#" class="art_tag">老照片</a>
+			<a href="#" class="art_tag">历史</a>
+			<a href="#" class="art_tag">美国</a>
+			<a href="#" class="art_tag">美军</a>
+			<a href="#" class="art_tag">老照片</a>
+			<a href="#" class="art_tag">历史</a>
+			<a href="#" class="art_tag">美国</a>
+			<a href="#" class="art_tag">美军</a>
+		</div>
+		<div class="art_another_box clearfix">
+			<div class="art_another g_love">
+				<h3>猜你喜欢</h3>
+				<ul>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+				</ul>
+			</div>
+			<div class="art_another">
+				<h3>相关报道</h3>
+				<ul>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+					<li>
+						<strong class="font_green">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="art_ad">
+			<a href="#"><img src="../img/art_ad.png" width=670 height=70 /></a>
+		</div>
+		<div class="sbar_title art_sug">
+			<span class="font_blue"><strong>推荐阅读</strong></span>
+		</div>
+		<div class="artimg_box clearfix">
+			<div class="sb_imgbox art_sugimg">
+				<a href="#"><img src="../img/sb_ad_2.PNG" width=200 height=130 title="珠海哪些岛屿漂亮呢？" /></a>
+				<div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+			</div>
+			<div class="sb_imgbox art_sugimg">
+				<a href="#"><img src="../img/sb_ad_2.PNG" width=200 height=130 title="珠海哪些岛屿漂亮呢？" /></a>
+				<div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+			</div>
+			<div class="sb_imgbox art_sugimg">
+				<a href="#"><img src="../img/sb_ad_2.PNG" width=200 height=130 title="珠海哪些岛屿漂亮呢？" /></a>
+				<div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+			</div>
+			<div class="sb_imgbox art_sugimg">
+				<a href="#"><img src="../img/sb_ad_2.PNG" width=200 height=130 title="珠海哪些岛屿漂亮呢？" /></a>
+				<div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+			</div>
+			<div class="sb_imgbox art_sugimg">
+				<a href="#"><img src="../img/sb_ad_2.PNG" width=200 height=130 title="珠海哪些岛屿漂亮呢？" /></a>
+				<div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+			</div>
+			<div class="sb_imgbox art_sugimg">
+				<a href="#"><img src="../img/sb_ad_2.PNG" width=200 height=130 title="珠海哪些岛屿漂亮呢？" /></a>
+				<div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+			</div>
+		</div>
+	</div><!-- n21_box_left end -->
+	<!-- _________________________sidebar_________________________ -->
+	<div id="n21_sidebar" class="ns_sidebar">
+		<div class="sbar_box sbtoday_f">
+			<div class="ns_sb_t">
+				今日
+			</div>
+			<div class="ns_imgbox">
+				<a href="#"><img src="../img/sb_zt_img.PNG" width=240 height=125 /></a>
+			</div>
+			<div class="ns_sb_txt">
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+				<br />
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">难忘的体验之一是要让设计有趣</a>
+				<br />
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+			</div>
+		</div><!-- sbar_box end -->
+		<div class="nsb_ad_1"><a href="#"><img src="../img/sb_ad1.PNG" width=280 height=50 /></a></div>
+		<div class="sbar_box sbnews_r">
+			<div class="sb_rankh clearfix">
+				<a class="hl h_act" href="#">新闻每日排行</a>
+				<a class="hr" href="#">周排行</a>
+			</div>
+			<div class="rank_tab">
+				<ul class="rank_li rli0">
+					<li class="hot_rank"><span>01·</span><a href="#">历史的风云际会和自然的地理形胜以及历</a></li>
+					<li class="hot_rank"><span>02·</span><a href="#">不把自己放进惨淡人生的宏大</a></li>
+					<li class="hot_rank"><span>03·</span><a href="#">到的是衡阳两千多年的历史文化</a></li>
+					<li><span>04·</span><a href="#" class="title_link">思考方式和行为，以及后来我的想法发生</a></li>
+					<li><span>05·</span><a href="#" class="title_link">种思维飞翔的技能，当你</a></li>
+					<li><span>06·</span><a href="#" class="title_link">历史的风云际会和自然的地理形胜以及历</a></li>
+					<li><span>07·</span><a href="#" class="title_link">不把自己放进惨淡人生的宏大</a></li>
+					<li><span>08·</span><a href="#" class="title_link">到的是衡阳两千多年的历史文化</a></li>
+					<li><span>09·</span><a href="#" class="title_link">思考方式和行为，以及后来我的想法发生</a></li>
+					<li><span>10·</span><a href="#" class="title_link">种思维飞翔的技能，当你</a></li>
+				</ul>
+				<ul class="rank_li rli1" style="display:none">
+					<li class="hot_rank"><span>01·</span><a href="#">思考方式和行为，以及后来我的想法发生</a></li>
+					<li class="hot_rank"><span>02·</span><a href="#">到的是衡阳两千多年的历史文化</a></li>
+					<li class="hot_rank"><span>03·</span><a href="#">历史的风云际会和自然的地理形胜以及历</a></li>
+					<li><span>04·</span><a href="#" class="title_link">历史的风云际会和自然的地理形胜以及历</a></li>
+					<li><span>05·</span><a href="#" class="title_link">种思维飞翔的技能，当你</a></li>
+					<li><span>06·</span><a href="#" class="title_link">历史的风云际会和自然的地理形胜以及历</a></li>
+					<li><span>07·</span><a href="#" class="title_link">不把自己放进惨淡人生的宏大</a></li>
+					<li><span>08·</span><a href="#" class="title_link">到的是衡阳两千多年的历史文化</a></li>
+					<li><span>09·</span><a href="#" class="title_link">思考方式和行为，以及后来我的想法发生</a></li>
+					<li><span>10·</span><a href="#" class="title_link">种思维飞翔的技能，当你</a></li>
+				</ul>
+			</div>
+		</div><!-- sbar_box end -->
+		<div class="sbar_box sbshi_j">
+			<div class="ns_sbt1">
+				<span>图</span>视觉珠海
+			</div>
+			<div class="sb_imgbox">
+				<a href="#"><img src="../img/sb_ad_2.PNG" width=300 height=175 title="珠海哪些岛屿漂亮呢？" /></a>
+				<div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+			</div>
+			<div class="sb_text">
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+				<br />
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">难忘的体验之一是要让设计有趣</a>
+				<br />
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+			</div>
+		</div><!-- sbar_box end -->
+		<div class="sbar_box sbzh">
+			<div class="ns_sbt2">
+				<span>珠海百科</span>
+				<a href="#" class="sb_more font_grey">更多</a>
+			</div>
+			<h3>珠海哪些岛屿漂亮呢？</h3>
+			<div class="ns_sbit clearfix">
+				<div class="ns_sbi"><a href="#"><img src="../img/sb_img1.PNG" width=120 height=80 /></a></div>
+				<div class="ns_sbt font_grey">郭德纲：同行之间才是赤裸裸的仇恨。<a href="#" class="title_link">[详细]</a></div>
+			</div>
+			<div class="ns_sb_txt">
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+				<br />
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">难忘的体验之一是要让设计有趣</a>
+				<br />
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+			</div>
+		</div><!-- sbar_box end -->
+		<div class="nsb_ad_2">
+			<a href="#"><img src="../img/sb_ad2.PNG" width=300 height=206 /></a>
+		</div>
+		<div class="sbar_box sbzh">
+			<div class="ns_sbt2">
+				<span>珠海百科</span>
+				<a href="#" class="sb_more font_grey">更多</a>
+			</div>
+			<h3>珠海哪些岛屿漂亮呢？</h3>
+			<div class="ns_sbit clearfix">
+				<div class="ns_sbi"><a href="#"><img src="../img/sb_img1.PNG" width=120 height=80 /></a></div>
+				<div class="ns_sbt font_grey">郭德纲：同行之间才是赤裸裸的仇恨。<a href="#" class="title_link">[详细]</a></div>
+			</div>
+			<div class="ns_sb_txt">
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+				<br />
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">难忘的体验之一是要让设计有趣</a>
+				<br />
+				<strong class="font_blue">·</strong><a href="#" class="font_grey title_link">他们的设计给了我很多的灵感与动</a>
+			</div>
+		</div><!-- sbar_box end -->
+		<div class="sbar_box sb_slider" id="sb_slider">
+			<div class="sbar_title">
+				<span class="font_blue">专题推荐</span>
+			</div>
+			<ul class="bjqs">
+				<li>
+					<div class="sb_imgbox">
+						<a href="#"><img src="../img/sb_ad_2.PNG" width=300 height=175 title="珠海哪些岛屿漂亮呢？" /></a>
+						<div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+					</div>
+				</li>
+				<li>
+					<div class="sb_imgbox">
+						<a href="#"><img src="../img/sb_ad_3.PNG" width=300 height=175 title="珠海哪些岛屿漂亮呢？" /></a>
+						<div class="sb_imgbox_text">风情 · 岛屿 · 人物</div>
+					</div>
+				</li>
+				<li>
+					<div class="sb_imgbox">
+						<a href="#"><img src="../img/sb_ad_4.PNG" width=300 height=175 /></a>
+						<div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+					</div>
+				</li>
+			</ul>
+		</div><!-- sbar_box end -->
+		<div class="nsb_ad_2">
+			<a href="#"><img src="../img/sb_ad3.PNG" width=300 height=400 /></a>
+		</div>
+	</div><!-- n21_sidebar end -->
+</div><!-- n21_main_box end -->
+
+<div id="n21_footer">
+	<div class="line-blue"></div>
+	<div class="footer_box n21_wrapper">
+		<div class="products_title">
+			<span class="font_blue">珠海网全媒体产品</span>
+		</div>
+		<div class="products">
+			<ul class="clearfix">
+				<li>
+					<a target="_blank" title="珠海网" href="http://www.n21.cc">
+						<img title="珠海网" alt="珠海网" src="../img/nav_ico1.png">
+					</a>	
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="珠海视频" href="http://v.n21.cc">
+						<img title="珠海视频" alt="珠海视频" src="../img/nav_ico2.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="手机客户端" href="http://www.n21.cc/app">
+						<img title="手机客户端" alt="手机客户端" src="../img/nav_ico3.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="珠海社区" href="http://my.n21.cc">
+						<img title="珠海社区" alt="珠海社区" src="../img/nav_ico4.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="海螺电台" href="http://podcast.n21.cc">
+						<img title="海螺电台" alt="海螺电台" src="../img/nav_ico5.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="珠海导航" href="http://hao.n21.cc">
+						<img title="珠海导航" alt="珠海导航" src="../img/nav_ico6.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="珠海百科" href="http://baike.n21.cc">
+						<img title="珠海百科" alt="珠海百科" src="../img/nav_ico7.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="珠海百问" href="http://baiwen.n21.cc">
+						<img title="珠海百问" alt="珠海百问" src="../img/nav_ico8.png">
+					</a>
+				</li>
+			</ul>
+		</div><!-- products end -->
+		<div class="footer_links">
+			<div class="products_title">
+				<span class="font_blue">友情链接</span>
+			</div>
+			<div class="links clearfix">
+				<a target="_blank" class="title_link" href="http://s1979.cutv.com">深圳台</a>|
+				<a target="_blank" class="title_link" href="http://km.cutv.com">昆明台</a>|
+				<a target="_blank" class="title_link" href="http://nj.cutv.com">南京台</a>|
+				<a target="_blank" class="title_link" href="http://suzhou.cutv.com">苏州台</a>|
+				<a target="_blank" class="title_link" href="http://nt.cutv.com">南通台</a>|
+				<a target="_blank" class="title_link" href="http://nb.cutv.com">宁波台</a>|
+				<a target="_blank" class="title_link" href="http://taizhou.cutv.com">台州台</a>|
+				<a target="_blank" class="title_link" href="http://dl.cutv.com/cutv/cutv.shtml">大连台</a>|
+				<a target="_blank" class="title_link" href="http://jn.cutv.com">济南台</a>|
+				<a target="_blank" class="title_link" href="http://qd.cutv.com">青岛台</a>|
+				<a target="_blank" class="title_link" href="http://nn.cutv.com">南宁台</a>|
+				<a target="_blank" class="title_link" href="http://sx.cutv.com">绍兴台</a>|
+				<a target="_blank" class="title_link" href="http://wh.cutv.com">武汉台</a>|
+				<a target="_blank" class="title_link" href="http://ay.cutv.com">安阳台</a>|
+				<a target="_blank" class="title_link" href="http://ty.cutv.com">太原台</a>|
+				<a target="_blank" class="title_link" href="http://tz.cutv.com">泰州台</a>|
+				<a target="_blank" class="title_link" href="http://lanzhou.cutv.com">兰州台</a>|
+				<a target="_blank" class="title_link" href="http://liuzhou.cutv.com">柳州台</a>|
+				<a target="_blank" class="title_link" href="http://xn.cutv.com">西宁台</a>|
+				<a target="_blank" class="title_link" href="http://zz.cutv.com">郑州台</a>|
+				<a class="last title_link" target="_blank" href="http://xa.cutv.com">西安台</a>
+			</div>
+			<div class="license">
+				<div class="fnav">
+					<a target="_blank" class="title_link"href="##/">
+						关于珠海网
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						服务条款
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						全媒体营销中心
+					</a>				
+					|
+					<a target="_blank" class="title_link"href="##">
+						友情链接
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						版权声明与合作
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						人才招聘
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						网站地图
+					</a>
+				</div>
+				<div class="copyright">
+					<a target="_blank" class="title_link"href="http://www.miitbeian.gov.cn">
+						粤ICP备11018056号-2
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						广播电视节目制作经营许可证
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						互联网新闻许可证
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						信息网络传播视听节目许可证
+					</a>
+					<br>
+					业务电话：0756-XXXXXXX &nbsp;&nbsp;&nbsp;广告热线：0756-XXXXXXX 
+					<br>
+					版权所有 珠海广播电视台 Copyright &copy;2011~2013 n21.cc corporation.
+					All Rights Reserved
+				</div>
+			</div>
+		</div><!-- footer_links end -->
+	</div><!-- footer_box end -->
+</div><!-- n21_footer end -->
+</body>
+
+</html>

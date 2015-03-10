@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>珠海网 | 珠海网络电视台</title>
+	<meta name="keywords" content="珠海,珠海网,珠海广播电视台,珠海电视台,珠海电台,ZHTV,珠海新闻,珠海网络电视,n21,北纬21度,珠海视频,电视直播,视频点播,新闻报料,新闻,澳门,生活,美食,科技,校园,飞翔,航展,互动,播客,珠海社区,珠海人才,珠海导航,珠海百科,珠海百问,海螺电台,珠海商城" />
+	<meta name="description" content="珠海人，上珠海网！珠海网是珠海网络电视台旗下的新媒体，包含网络视频、互动社区等平台，是提供珠海新闻资讯、视频直播点播、生活服务,电子商务，优惠团购，热门活动的综合性门户网站，栏目包含新闻报料,新闻,澳门,生活,珠海美食,科技,校园,飞翔,航展,互动,播客,珠海视频,珠海社区,珠海人才,珠海导航,珠海百科,珠海百问,海螺电台,珠海商城等。" />
+	<base target="_blank" />
+	<link rel="stylesheet" type="text/css" href="../css/n21_new.css">
+	<link rel="stylesheet" type="text/css" href="../css/bjqs.css">
+	<script type="text/javascript" src="../js/jquery-1.10.1.js"></script>
+	<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/bjqs-1.3.min.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery("#n21_sidebar .sb_rankh a").mouseover(function(){
+				var $this = jQuery(this);
+				var index = $this.index();
+				var $tab = jQuery("#n21_sidebar .rli"+index);
+				if ( !$this.hasClass("h_act") ) {
+					$this.addClass("h_act").siblings("a").removeClass("h_act");
+					$tab.css({"display":"block"}).siblings().css({"display":"none"});
+				}
+			});
+			jQuery('#sb_slider').bjqs({
+				height       : 215,
+				width        : 300,
+				responsive   : false,
+				showcontrols : false,
+				centermarkers: false
+			});
+		});
+	</script>
+</head>
+
+<body>
+<div id="n21_header">
+	<div id="n21_header_top">
+		<div id="n21_header_top_box" class="n21_wrapper clearfix">
+			<a class="n21_logo" href="#" title="珠海网"></a>
+			<div id="n21_search">
+				<div class="n21_search_box clearfix">
+					<input class="search_input" style="text" value="" />
+					<div class="search_btn"></div>
+				</div>
+				<ul class="search_keywords clearfix">
+					<li><a href="#" title="热带风暴" class="title_link">热带风暴</a></li>
+					<li><a href="#" title="定位系统" class="title_link">定位系统</a></li>
+					<li><a href="#" title="珠三角" class="title_link">珠三角</a></li>
+					<li><a href="#" title="海绵宝宝" class="title_link">海绵宝宝</a></li>
+					<li><a href="#" title="定位系统" class="title_link">定位系统</a></li>
+					<li><a href="#" title="珠三角" class="title_link">珠三角</a></li>
+					<li><a href="#" title="海绵宝宝" class="title_link">海绵宝宝</a></li>
+				</ul>
+			</div>
+			<div id="n21_header_link">
+				<ul class="n21_header_link_box clearfix">
+					<li class="user_log"><a href="#" title="登录"><span>登录</span></a><a href="#" title="注册"><span>注册</span></a></li>
+					<li><a href="#" title="珠海视听"><img src="../img/shiting_logo.png" title="视听" alt="视听" width=36 height=25 /><span>视听</span></a></li>
+					<li><a href="#" title="珠海社区"><img src="../img/shequ_logo.png" title="社区" alt="社区" width=36 height=25 /><span>社区</span></a></li>
+					<li><a href="#" title="珠海同城"><img src="../img/tongcheng_logo.png" title="同城" alt="同城" width=36 height=25 /><span>同城</span></a></li>
+					<li><a href="#" title="珠海导航"><img src="../img/daohang_logo.png" title="导航" alt="导航" width=36 height=25 /><span>导航</span></a></li>
+				</ul>
+			</div>
+		</div><!-- n21_header_top_box end -->
+	</div><!-- n21_header_top end -->
+	<div id="n21_nav">
+		<div id="n21_nav_box" class="n21_wrapper">
+			<ul class="n21_nav_lists clearfix">
+				<li><a href="#" title="首页">首页</a></li>
+				<li><a href="#" title="新闻">新闻</a></li>
+				<li><a href="#" title="澳门">澳门</a></li>
+				<li><a href="#" title="生活">生活</a></li>
+				<li><a href="#" title="美食">美食</a></li>
+				<li><a href="#" title="科技">科技</a></li>
+				<li><a href="#" title="校园">校园</a></li>
+				<li><a href="#" title="文化">文化</a></li>
+				<li><a href="#" title="旅游">旅游</a></li>
+				<li><a href="#" title="人才">人才</a></li>
+				<li><a href="#" title="飞翔">飞翔</a></li>
+				<li class="n21_market"><a href="#" title="珠海商城">珠海商城</a></li>
+				<li class="nav_white"><a href="#" title="专题">专题</a></li>
+			</ul>
+		</div>
+	</div><!-- n21_nav end -->
+	<div class="nav_sub_li n21_wrapper">
+		<ul class="clearfix">
+			<li><a href="#" title="电影首页" class="font_grey"><strong>电影首页</strong></a></li>
+			<li><a href="#" title="电影1" class="font_grey title_link">电影1</a></li>
+			<li><a href="#" title="电影2" class="font_grey title_link">电影2</a></li>
+			<li><a href="#" title="电影3" class="font_grey title_link">电影3</a></li>
+			<li><a href="#" title="电影4" class="font_grey title_link">电影4</a></li>
+			<li><a href="#" title="电影5" class="font_grey title_link">电影5</a></li>
+			<li><a href="#" title="电影6" class="font_grey title_link">电影6</a></li>
+			<li><a href="#" title="电影7" class="font_grey title_link">电影7</a></li>
+			<li><a href="#" title="电影8" class="font_grey title_link">电影8</a></li>
+			<li><a href="#" title="电影9" class="font_grey title_link">电影9</a></li>
+			<li><a href="#" title="电影10" class="font_grey title_link">电影10</a></li>
+			<li><a href="#" title="电影11" class="font_grey title_link">电影11</a></li>
+		</ul>
+	</div><!-- nav_sub_li end -->
+
+	<div id="n21_banner_slider" class="n21_wrapper clearfix zt_slider">
+		<div class="slider_wrapper clearfix">
+			<div class="n21_slider_img">
+				<a href="#"><img src="../img/slider_img.PNG" alt="" width=690 height=310 /></a>
+			</div>
+			<div class="n21_slider_text zt_banner">
+				<h1><a href="#" class="font_blue title_link"><strong>新西兰乳粉检出肉毒杆菌涉及中国三品牌</strong></a></h1>
+				<p class="n21_slider_text_excerpt">全球最大的乳制品出口商、新西兰的恒天然公司，旗下部分产品检出肉毒杆菌，受污染的产品可能	用于婴儿配方奶粉和运动饮料，或造成食用者中毒。</p>
+			</div>
+		</div>
+	</div><!-- n21_banner_slider end -->
+
+</div><!-- n21_header end -->
+<div id="n21_main_box" class="n21_wrapper clearfix">
+	<div id="n21_box_left" class="ns_left">
+		<div class="n21_lpic">
+			<div class="font_blue">图片征集</div>
+			<a href="#"><img src="../img/zt_im1.PNG" width=670 height=162 /></a>
+		</div>
+		<div class="zt_news_box">
+			<div class="font_blue">新闻动态</div>
+			<div class="ns_box">
+					<h2><a href="#" class="title_link">20130917-农业部：圣女果 彩椒并非转基因食品</a></h2>
+					<span id="ns_date" class="font_grey">2013/08/06 15:55:57</span>
+					<div class="ns_it clearfix font_grey">
+						<div class="ns_i">
+							<a href="#"><img src="../img/ns_img.PNG" width=200 height=145 /></a>
+						</div>
+						<div class="ns_t">
+							九十多岁的许太太正在为老伴儿的仙逝而垂泪伤心。在台北的这家殡仪馆里，她面对许老先生生前的各种照片失声痛哭，而亲戚朋友们则抑制住了悲伤。参加葬礼的人无论男女皆是一身黑衣加白手套的装束，确保有序而且庄严地完成这一悲伤的道别仪式。
+						</div>
+						<div class="ns_tag">
+							标签：<a href="#" class="title_link font_grey">电商</a>，<a href="#" class="title_link font_grey">媒体</a>，<a href="#" class="title_link font_grey">资讯</a>
+						</div>
+					</div>
+				</div>
+			<div class="ns_box">
+					<h2><a href="#" class="title_link">20130917-农业部：圣女果 彩椒并非转基因食品</a></h2>
+					<span id="ns_date" class="font_grey">2013/08/06 15:55:57</span>
+					<div class="ns_it clearfix font_grey">
+						<div class="ns_i">
+							<a href="#"><img src="../img/ns_img.PNG" width=200 height=145 /></a>
+						</div>
+						<div class="ns_t">
+							九十多岁的许太太正在为老伴儿的仙逝而垂泪伤心。在台北的这家殡仪馆里，她面对许老先生生前的各种照片失声痛哭，而亲戚朋友们则抑制住了悲伤。参加葬礼的人无论男女皆是一身黑衣加白手套的装束，确保有序而且庄严地完成这一悲伤的道别仪式。
+						</div>
+						<div class="ns_tag">
+							标签：<a href="#" class="title_link font_grey">电商</a>，<a href="#" class="title_link font_grey">媒体</a>，<a href="#" class="title_link font_grey">资讯</a>
+						</div>
+					</div>
+				</div>
+				<div class="ns_box">
+					<h2><a href="#" class="title_link">20130917-农业部：圣女果 彩椒并非转基因食品</a></h2>
+					<span id="ns_date" class="font_grey">2013/08/06 15:55:57</span>
+					<div class="ns_it clearfix font_grey">
+						<div class="ns_i">
+							<a href="#"><img src="../img/ns_img.PNG" width=200 height=145 /></a>
+						</div>
+						<div class="ns_t">
+							九十多岁的许太太正在为老伴儿的仙逝而垂泪伤心。在台北的这家殡仪馆里，她面对许老先生生前的各种照片失声痛哭，而亲戚朋友们则抑制住了悲伤。参加葬礼的人无论男女皆是一身黑衣加白手套的装束，确保有序而且庄严地完成这一悲伤的道别仪式。
+						</div>
+						<div class="ns_tag">
+							标签：<a href="#" class="title_link font_grey">电商</a>，<a href="#" class="title_link font_grey">媒体</a>，<a href="#" class="title_link font_grey">资讯</a>
+						</div>
+					</div>
+				</div>
+				<div class="ns_box">
+					<h2><a href="#" class="title_link">20130917-农业部：圣女果 彩椒并非转基因食品</a></h2>
+					<span id="ns_date" class="font_grey">2013/08/06 15:55:57</span>
+					<div class="ns_it clearfix font_grey">
+						<div class="ns_i">
+							<a href="#"><img src="../img/ns_img.PNG" width=200 height=145 /></a>
+						</div>
+						<div class="ns_t">
+							九十多岁的许太太正在为老伴儿的仙逝而垂泪伤心。在台北的这家殡仪馆里，她面对许老先生生前的各种照片失声痛哭，而亲戚朋友们则抑制住了悲伤。参加葬礼的人无论男女皆是一身黑衣加白手套的装束，确保有序而且庄严地完成这一悲伤的道别仪式。
+						</div>
+						<div class="ns_tag">
+							标签：<a href="#" class="title_link font_grey">电商</a>，<a href="#" class="title_link font_grey">媒体</a>，<a href="#" class="title_link font_grey">资讯</a>
+						</div>
+					</div>
+				</div>
+				<div class="ns_box">
+					<h2><a href="#" class="title_link">20130917-农业部：圣女果 彩椒并非转基因食品</a></h2>
+					<span id="ns_date" class="font_grey">2013/08/06 15:55:57</span>
+					<div class="ns_it clearfix font_grey">
+						<div class="ns_i">
+							<a href="#"><img src="../img/ns_img.PNG" width=200 height=145 /></a>
+						</div>
+						<div class="ns_t">
+							九十多岁的许太太正在为老伴儿的仙逝而垂泪伤心。在台北的这家殡仪馆里，她面对许老先生生前的各种照片失声痛哭，而亲戚朋友们则抑制住了悲伤。参加葬礼的人无论男女皆是一身黑衣加白手套的装束，确保有序而且庄严地完成这一悲伤的道别仪式。
+						</div>
+						<div class="ns_tag">
+							标签：<a href="#" class="title_link font_grey">电商</a>，<a href="#" class="title_link font_grey">媒体</a>，<a href="#" class="title_link font_grey">资讯</a>
+						</div>
+					</div>
+				</div>
+				<div class="ns_box">
+					<h2><a href="#" class="title_link">20130917-农业部：圣女果 彩椒并非转基因食品</a></h2>
+					<span id="ns_date" class="font_grey">2013/08/06 15:55:57</span>
+					<div class="ns_it clearfix font_grey">
+						<div class="ns_i">
+							<a href="#"><img src="../img/ns_img.PNG" width=200 height=145 /></a>
+						</div>
+						<div class="ns_t">
+							九十多岁的许太太正在为老伴儿的仙逝而垂泪伤心。在台北的这家殡仪馆里，她面对许老先生生前的各种照片失声痛哭，而亲戚朋友们则抑制住了悲伤。参加葬礼的人无论男女皆是一身黑衣加白手套的装束，确保有序而且庄严地完成这一悲伤的道别仪式。
+						</div>
+						<div class="ns_tag">
+							标签：<a href="#" class="title_link font_grey">电商</a>，<a href="#" class="title_link font_grey">媒体</a>，<a href="#" class="title_link font_grey">资讯</a>
+						</div>
+					</div>
+				</div>
+				<div class="ns_box no_img">
+					<h2><a href="#" class="title_link">20130917-农业部：圣女果 彩椒并非转基因食品</a></h2>
+					<span id="ns_date" class="font_grey">2013/08/06 15:55:57</span>
+					<div class="ns_it clearfix font_grey">
+						<div class="ns_t">
+							九十多岁的许太太正在为老伴儿的仙逝而垂泪伤心。在台北的这家殡仪馆里，她面对许老先生生前的各种照片失声痛哭，而亲戚朋友们则抑制住了悲伤。参加葬礼的人无论男女皆是一身黑衣加白手套的装束，确保有序而且庄严地完成这一悲伤的道别仪式。参加葬礼的人无论男女皆是一身黑衣加白手套的装束，确保有序而且庄严地完成这一悲伤的道别仪式。
+						</div>
+						<div class="ns_tag">
+							标签：<a href="#" class="title_link font_grey">电商</a>，<a href="#" class="title_link font_grey">媒体</a>，<a href="#" class="title_link font_grey">资讯</a>
+						</div>
+					</div>
+				</div>
+				<div class="ns_page">
+					<span class="unused">上一页</span>
+					<a href="#" class="actived">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">6</a>
+					<a href="#">7</a>
+					<a href="#">8</a>
+					<a href="#">下一页</a>
+					<a href="#">第9页</a>
+					<a href="#">末页第168页</a>
+				</div>
+		</div>
+	</div><!-- n21_box_left end -->
+
+<!-- _________________________sidebar_________________________ -->
+	<div id="n21_sidebar" class="ns_sidebar">
+		<div class="sbar_box zt_sbar">
+			<div class="sbzt_t font_blue">
+				<span>相关视频</span>
+				<div class="sbzt_tbk"></div>
+			</div>
+			<div class="sb_imgbox sb_vbox">
+				<a href="#"><img src="../img/sb_ad_2.PNG" width=300 height=175 title="珠海哪些岛屿漂亮呢？" /><div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+				<div class="sbv_mask"></div></a>
+			</div>
+			<div class="sb_imgbox sb_vbox">
+				<a href="#"><img src="../img/sb_ad_2.PNG" width=300 height=175 title="珠海哪些岛屿漂亮呢？" /><div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+				<div class="sbv_mask"></div></a>
+			</div>
+			<div class="sb_imgbox sb_vbox">
+				<a href="#"><img src="../img/sb_ad_2.PNG" width=300 height=175 title="珠海哪些岛屿漂亮呢？" /><div class="sb_imgbox_text">珠海哪些岛屿漂亮呢？</div>
+				<div class="sbv_mask"></div></a>
+			</div>
+		</div><!-- sbar_box end -->
+		<div class="sbar_box sb_slider" id="sb_slider">
+			<div class="sbar_title">
+				<span class="font_blue">图集精选</span>
+			</div>
+			<div class="sbzt_tbk"></div>
+			<ul class="bjqs">
+				<li>
+					<div class="sb_imgbox">
+						<a href="#"><img src="../img/sb_ad_2.PNG" width=300 height=175 title="珠海哪些岛屿漂亮呢？" /></a>
+					</div>
+				</li>
+				<li>
+					<div class="sb_imgbox">
+						<a href="#"><img src="../img/sb_ad_3.PNG" width=300 height=175 title="珠海哪些岛屿漂亮呢？" /></a>
+					</div>
+				</li>
+				<li>
+					<div class="sb_imgbox">
+						<a href="#"><img src="../img/sb_ad_4.PNG" width=300 height=175 title="珠海哪些岛屿漂亮呢？" /></a>
+					</div>
+				</li>
+			</ul>
+		</div><!-- sbar_box end -->
+		<div class="sbar_box sbzt_news">
+			<div class="sbztn_t">最新消息</div>
+			<div class="sbztn_c">
+				<div class="date"><span id="date">2013/8/14</span>  <span id="time">16:20</span></div>
+				<div class="image"><img src="../img/sbztn_i.PNG" width=280 height=190 /></div>
+				<p>【“尤特”即将登陆】广东省气象台的专家正在紧张地确定强台风“尤特”的登陆点！阳江？阳西？防御工作不要因为“尤特”登陆而放松，降雨只是开了个头，“尤特”登陆后，还将给我省带来持续强降水，请继续做好防御！</p>
+			</div>
+			<div class="sbztn_c">
+				<div class="date"><span id="date">2013/8/14</span>  <span id="time">16:20</span></div>
+				<div class="image"><img src="../img/sbztn_i.PNG" width=280 height=190 /></div>
+				<p>【“尤特”即将登陆】广东省气象台的专家正在紧张地确定强台风“尤特”的登陆点！阳江？阳西？防御工作不要因为“尤特”登陆而放松，降雨只是开了个头，“尤特”登陆后，还将给我省带来持续强降水，请继续做好防御！</p>
+			</div>
+		</div><!-- sbar_box end -->
+		<div class="sbar_box zt_sbar">
+			<div class="sbzt_t font_blue">
+				<span>台风专题</span>
+				<div class="sbzt_tbk"></div>
+			</div>
+			<div class="sbzt_n clearfix">
+				<a href="#"><img src="../img/sbztn_i2.PNG" width=100 height=80 /></a>
+				<div class="sbzt_nt">
+					<a href="#"><h5 class="title_link">确定强台风“尤特”的登陆点！</h5></a>
+					<p>“尤特”登陆后，还将给我省带来持续强降水，请继续做好防御！<a href="#" class="title_link">[详细]</a></p>
+				</div>
+			</div>
+			<div class="sbzt_n clearfix">
+				<a href="#"><img src="../img/sbztn_i2.PNG" width=100 height=80 /></a>
+				<div class="sbzt_nt">
+					<a href="#"><h5 class="title_link">确定强台风“尤特”的登陆点！</h5></a>
+					<p>“尤特”登陆后，还将给我省带来持续强降水，请继续做好防御！<a href="#" class="title_link">[详细]</a></p>
+				</div>
+			</div>
+			<div class="sbzt_n clearfix">
+				<a href="#"><img src="../img/sbztn_i2.PNG" width=100 height=80 /></a>
+				<div class="sbzt_nt">
+					<a href="#"><h5 class="title_link">确定强台风“尤特”的登陆点！</h5></a>
+					<p>“尤特”登陆后，还将给我省带来持续强降水，请继续做好防御！<a href="#" class="title_link">[详细]</a></p>
+				</div>
+			</div>
+		</div><!-- sbar_box end -->
+	</div><!-- n21_sidebar end -->
+</div><!-- n21_main_box end -->
+
+<div id="n21_footer">
+	<div class="line-blue"></div>
+	<div class="footer_box n21_wrapper">
+		<div class="products_title">
+			<span class="font_blue">珠海网全媒体产品</span>
+		</div>
+		<div class="products">
+			<ul class="clearfix">
+				<li>
+					<a target="_blank" title="珠海网" href="http://www.n21.cc">
+						<img title="珠海网" alt="珠海网" src="../img/nav_ico1.png">
+					</a>	
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="珠海视频" href="http://v.n21.cc">
+						<img title="珠海视频" alt="珠海视频" src="../img/nav_ico2.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="手机客户端" href="http://www.n21.cc/app">
+						<img title="手机客户端" alt="手机客户端" src="../img/nav_ico3.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="珠海社区" href="http://my.n21.cc">
+						<img title="珠海社区" alt="珠海社区" src="../img/nav_ico4.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="海螺电台" href="http://podcast.n21.cc">
+						<img title="海螺电台" alt="海螺电台" src="../img/nav_ico5.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="珠海导航" href="http://hao.n21.cc">
+						<img title="珠海导航" alt="珠海导航" src="../img/nav_ico6.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="珠海百科" href="http://baike.n21.cc">
+						<img title="珠海百科" alt="珠海百科" src="../img/nav_ico7.png">
+					</a>
+				</li>
+				<li>
+					<img src="../img/nav_line.png">
+				</li>
+				<li>
+					<a target="_blank" title="珠海百问" href="http://baiwen.n21.cc">
+						<img title="珠海百问" alt="珠海百问" src="../img/nav_ico8.png">
+					</a>
+				</li>
+			</ul>
+		</div><!-- products end -->
+		<div class="footer_links">
+			<div class="products_title">
+				<span class="font_blue">友情链接</span>
+			</div>
+			<div class="links clearfix">
+				<a target="_blank" class="title_link" href="http://s1979.cutv.com">深圳台</a>|
+				<a target="_blank" class="title_link" href="http://km.cutv.com">昆明台</a>|
+				<a target="_blank" class="title_link" href="http://nj.cutv.com">南京台</a>|
+				<a target="_blank" class="title_link" href="http://suzhou.cutv.com">苏州台</a>|
+				<a target="_blank" class="title_link" href="http://nt.cutv.com">南通台</a>|
+				<a target="_blank" class="title_link" href="http://nb.cutv.com">宁波台</a>|
+				<a target="_blank" class="title_link" href="http://taizhou.cutv.com">台州台</a>|
+				<a target="_blank" class="title_link" href="http://dl.cutv.com/cutv/cutv.shtml">大连台</a>|
+				<a target="_blank" class="title_link" href="http://jn.cutv.com">济南台</a>|
+				<a target="_blank" class="title_link" href="http://qd.cutv.com">青岛台</a>|
+				<a target="_blank" class="title_link" href="http://nn.cutv.com">南宁台</a>|
+				<a target="_blank" class="title_link" href="http://sx.cutv.com">绍兴台</a>|
+				<a target="_blank" class="title_link" href="http://wh.cutv.com">武汉台</a>|
+				<a target="_blank" class="title_link" href="http://ay.cutv.com">安阳台</a>|
+				<a target="_blank" class="title_link" href="http://ty.cutv.com">太原台</a>|
+				<a target="_blank" class="title_link" href="http://tz.cutv.com">泰州台</a>|
+				<a target="_blank" class="title_link" href="http://lanzhou.cutv.com">兰州台</a>|
+				<a target="_blank" class="title_link" href="http://liuzhou.cutv.com">柳州台</a>|
+				<a target="_blank" class="title_link" href="http://xn.cutv.com">西宁台</a>|
+				<a target="_blank" class="title_link" href="http://zz.cutv.com">郑州台</a>|
+				<a class="last title_link" target="_blank" href="http://xa.cutv.com">西安台</a>
+			</div>
+			<div class="license">
+				<div class="fnav">
+					<a target="_blank" class="title_link"href="##/">
+						关于珠海网
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						服务条款
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						全媒体营销中心
+					</a>				
+					|
+					<a target="_blank" class="title_link"href="##">
+						友情链接
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						版权声明与合作
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						人才招聘
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						网站地图
+					</a>
+				</div>
+				<div class="copyright">
+					<a target="_blank" class="title_link"href="http://www.miitbeian.gov.cn">
+						粤ICP备11018056号-2
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						广播电视节目制作经营许可证
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						互联网新闻许可证
+					</a>
+					|
+					<a target="_blank" class="title_link"href="##">
+						信息网络传播视听节目许可证
+					</a>
+					<br>
+					业务电话：0756-XXXXXXX &nbsp;&nbsp;&nbsp;广告热线：0756-XXXXXXX 
+					<br>
+					版权所有 珠海广播电视台 Copyright &copy;2011~2013 n21.cc corporation.
+					All Rights Reserved
+				</div>
+			</div>
+		</div><!-- footer_links end -->
+	</div><!-- footer_box end -->
+</div><!-- n21_footer end -->
+</body>
+
+</html>
