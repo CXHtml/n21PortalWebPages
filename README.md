@@ -34,4 +34,4 @@ a unaccepted version of n21 web pages [new version address](http://www.n21.cc)
   my_sliders.js
 ```
 ##接下来待做的
-重构页面js代码，js、jquery各一份
+重构页面js代码，js、jquery各一份，将页面上用到的js功能组件插件化
